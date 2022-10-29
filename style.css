@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-image {
+.header__image {
   width: 100%;
 }
 
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__input-wrapper {
   display: flex;
 }
 
@@ -76,7 +76,7 @@
 /* Heading */
 
 .title,
-.label-new-task {
+.add-item__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,7 +105,7 @@
 
 /* New Task */
 
-.label-new-task {
+.add-item__label {
   display: block;
   margin: 0 0 20px;
 }
